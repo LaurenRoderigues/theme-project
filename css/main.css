@@ -7,19 +7,29 @@ html{
 body{
   background-color: #FFFFFF;
   padding: 1em;
-  border: 4px dotted #F90000;
-  border-top: em dotted #000;
   margin: 2em;
   margin-top: 1em;
 }
 /*
 0123456789abcdef
 */
-p{
+/* p{
+  color: #F90000;
+} */
+
+p {
+  font-size: 1em;
+}
+p.intro {
+  margin: 1em 3em;
+  font-size: 1em;
   color: #F90000;
 }
 nav h1 b u {
   color: #F90000;
+}
+nav h4 {
+  text-indent: 50px;
 }
 #Amsterdam {
   border: 1px solid #F90000;
